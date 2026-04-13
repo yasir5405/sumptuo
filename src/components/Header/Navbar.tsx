@@ -114,7 +114,7 @@ const Navbar = () => {
   }, [open]);
 
   return (
-    <nav className="-ml-0.5 fixed top-0 left-0 w-full h-16 border-b shadow-2xs flex items-center justify-between px-5 md:px-28 z-20 bg-background">
+    <nav className="-ml-0.5 fixed top-0 left-0 w-full h-16 border-b border-border/40 flex items-center justify-between px-5 md:px-28 z-20 bg-background/70 backdrop-blur-md shadow-none">
       {open && (
         <div className="w-full fixed top-16 inset-0 py-8 z-50 dark:bg-black/80 bg-background  dark:backdrop-blur-lg px-5 flex md:hidden flex-col gap-10 overflow-y-auto">
           <div className="w-full flex flex-col items-center justify-center gap-3">

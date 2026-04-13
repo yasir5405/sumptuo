@@ -5,6 +5,7 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
+  navigationMenuTriggerStyle,
 } from "../ui/navigation-menu";
 import { Link, useNavigate } from "react-router-dom";
 import {
@@ -17,7 +18,6 @@ import {
   useCases,
 } from "@/constants/constants";
 import { IconArrowRight } from "@tabler/icons-react";
-import { navigationMenuTriggerStyle } from "../ui/navigation-menu-trigger-style";
 import { Button } from "../ui/button";
 import GoogleLogo from "../GoogleLogo";
 

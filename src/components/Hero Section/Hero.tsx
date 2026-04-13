@@ -8,9 +8,9 @@ const Hero = () => {
       </h1>
 
       <p className="dark:text-muted-foreground max-w-3xl text-center">
-        See exactly where your budget is leaking, get plain-language insights,
-        and fix it — without hiring an agency. Most small businesses lose 30–50%
-        of their ad budget without knowing
+        Most small businesses lose 30–50% of their ad budget without
+        knowing..See exactly where your budget is leaking, get plain-language
+        insights, and fix it — without hiring an agency.
       </p>
 
       <div className="w-fit flex items-center justify-center gap-3">
