@@ -15,7 +15,7 @@ createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <BrowserRouter>
       <AuthProvider>
-        <ThemeProvider defaultTheme="dark" storageKey="sumptuo-ui-theme">
+        <ThemeProvider defaultTheme="light" storageKey="sumptuo-ui-theme">
           <GoogleOAuthProvider clientId={import.meta.env.VITE_GOOGLE_CLIENT_ID}>
             <TooltipProvider>
               <AdAccountProvider>
