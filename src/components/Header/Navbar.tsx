@@ -19,6 +19,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { AnimatedThemeToggler } from "../ui/animated-theme-toggler";
 
 const MobileProductsAccordion = ({
   section,
@@ -158,7 +159,7 @@ const Navbar = () => {
       </div>
 
       <div className="h-full w-fit flex items-center justify-center gap-3 md:gap-2">
-        {/* <AnimatedThemeToggler /> */}
+        <AnimatedThemeToggler />
 
         <Button
           variant={"ghost"}
