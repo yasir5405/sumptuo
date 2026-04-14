@@ -161,19 +161,14 @@ const Navbar = () => {
       <div className="h-full w-fit flex items-center justify-center gap-3 md:gap-2">
         <AnimatedThemeToggler />
 
-        <Button
-          variant={"ghost"}
-          className="hidden text-primary hover:border-primary transition-all duration-150 ease-in md:flex hover:text-primary rounded-sm p-4.5 border-primary "
-          asChild
-          size={"lg"}
-        >
+        <Button variant={"ghost"} className="" asChild size={"lg"}>
           <Link className="text-sm" to={"/login"}>
-            Log in
+            Sign in
           </Link>
         </Button>
 
         <Button
-          className="hidden md:flex p-5 transition-all duration-150 ease-in rounded-sm"
+          className="hidden md:flex transition-all duration-150 ease-in rounded-sm"
           asChild
           size={"lg"}
         >

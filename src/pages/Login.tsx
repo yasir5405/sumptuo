@@ -252,14 +252,8 @@ const Login = () => {
                     type="submit"
                     disabled={!isValid || loading}
                   >
-                    {loading ? (
-                      <div className="flex items-center justify-center gap-2">
-                        <Spinner />
-                        Logging in...
-                      </div>
-                    ) : (
-                      <>Log In</>
-                    )}
+                    {loading && <Spinner />}
+                    Log In
                   </Button>
                 </Field>
 
