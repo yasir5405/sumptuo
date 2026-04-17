@@ -6,22 +6,21 @@ import { AnimatedShinyText } from "../ui/animated-shiny-text";
 const Hero = () => {
   return (
     <div className="min-h-[90vh] pt-24 w-full flex flex-col justify-center gap-18">
-      {/* <BackgroundRippleEffect /> */}
-      <div className="flex w-full  justify-center flex-col gap-4">
+      <div className="flex w-full items-center justify-center flex-col gap-4">
         <AnimatedShinyText className="z-10 inline-block text-left text-primary dark:text-primary text-sm">
           <span>For businesses tired of wasting ad spend.</span>
         </AnimatedShinyText>
-        <h1 className="font-heading text-5xl font-semibold max-w-5xl z-10">
+        <h1 className="font-heading text-center text-7xl font-semibold max-w-4xl z-10">
           Stop wasting money on Google Ads
         </h1>
 
-        <p className="dark:text-muted-foreground max-w-3xl text-sm z-10">
+        <p className="dark:text-muted-foreground max-w-3xl text-sm z-10 text-center">
           Most small businesses lose 30–50% of their ad budget without knowing.
           See exactly where your budget is leaking, get plain-language insights,
           and fix it — without hiring an agency.
         </p>
 
-        <div className="w-full flex items-center gap-3">
+        <div className="w-full flex items-center justify-center gap-3">
           <Button
             className="hidden md:flex p-5 transition-all duration-150 ease-in rounded-sm z-10"
             asChild
