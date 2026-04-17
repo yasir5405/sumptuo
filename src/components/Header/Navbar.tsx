@@ -148,10 +148,12 @@ const Navbar = () => {
         </div>
       )}
 
-      <Link to={"/"} className="flex h-full w-fit items-center justify-center">
-        <Logo size="sm" />
-
-        <h1 className="font-heading text-xl font-semibold">Sumptuo</h1>
+      <Link
+        to={"/"}
+        className="flex h-full w-fit gap-0.5 items-center justify-center"
+      >
+        <h1 className="font-heading text-2xl font-semibold">Sumptuo</h1>
+        <Logo size="xs" />
       </Link>
 
       <div className="hidden md:flex absolute left-1/2 -translate-x-1/2">
