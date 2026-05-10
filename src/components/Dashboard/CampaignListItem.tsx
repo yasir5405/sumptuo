@@ -1,4 +1,4 @@
-import type { Campaign } from "@/api/ad.api";
+import type { Campaign } from "@/api/adsClient.api";
 import GoogleLogo from "../GoogleLogo";
 import { Badge } from "../ui/badge";
 import { IconPointer } from "@tabler/icons-react";

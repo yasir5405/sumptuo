@@ -4,7 +4,7 @@ import CampaignListItem from "./CampaignListItem";
 import { useAdAccount } from "@/context/AdAccountContext";
 import { useEffect, useState } from "react";
 import { toast } from "sonner";
-import { getAllCampaignsOfGoogleCLientId, type Campaign } from "@/api/ad.api";
+import { getAllCampaignsOfGoogleCLientId, type Campaign } from "@/api/adsClient.api";
 import CampaignListItemSkeleton from "../Skeletons/CampaignListItemSkeleton";
 import EmptyCampaign from "../Empty/EmptyCampaign";
 

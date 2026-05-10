@@ -1,7 +1,7 @@
 import {
   fetchConnectedGoogleAdAccounts,
   type SavedAdAccount,
-} from "@/api/ad.api";
+} from "@/api/adsClient.api";
 import { createContext, useContext, useEffect, useState } from "react";
 import { useAuth } from "./AuthContext";
 

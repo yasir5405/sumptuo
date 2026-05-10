@@ -22,7 +22,7 @@ import {
   saveGoogleAdsAccount,
   type AdAccount,
   type GoogleAdsTokens,
-} from "@/api/ad.api";
+} from "@/api/adsClient.api";
 import { useGoogleLogin, type CodeResponse } from "@react-oauth/google";
 import { toast } from "sonner";
 import { useAuth } from "@/context/AuthContext";
